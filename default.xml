@@ -16,7 +16,7 @@
            sync-j="4" />
 
 
-  <project path="build" name="platform/build" remote="tm" revision="6.0" >
+  <project path="build" name="android_build" remote="tm" revision="6.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="platform_manifest" name="platform_manifest" remote="tm" revision="6.0" />
