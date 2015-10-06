@@ -23,6 +23,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="tm" revision="6.0"/>
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="tm" revision="6.0" />
   <project path="vendor/tesla" name="android_vendor_tesla" remote="tm" revision="6.0" />
+  <project path="vendor/moto" name="MinimalOS/vendor_tesla" remote="github" revision="lp-mr1" />
 
   <!-- AOSP Repo's -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
