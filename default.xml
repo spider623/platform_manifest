@@ -22,6 +22,7 @@
   <project path="platform_manifest" name="platform_manifest" remote="t6" revision="6.0" />
   <project path="frameworks/base" name="android_frameworks_base" remote="t6" revision="6.0"/>
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="t6" revision="6.0" />
+  <project path="system/core" name="android_system_core" remote="t6" revision="6.0" />
   <project path="vendor/tesla" name="android_vendor_tesla" remote="t6" revision="6.0" />
   <project path="vendor/moto" name="vendor_moto_shamu" remote="t6" revision="6.0" />
 
@@ -466,7 +467,6 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
