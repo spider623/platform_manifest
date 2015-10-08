@@ -30,7 +30,7 @@
 
   <!-- Tesla Vendors -->
   <project path="vendor/tesla" name="android_vendor_tesla" remote="t6" revision="6.0" />
-  <project path="vendor/moto" name="vendor_moto_shamu" remote="t6" revision="6.0" />
+  <project path="vendor/moto/shamu" name="vendor_moto_shamu" remote="t6" revision="6.0" />
 
   <!-- AOSP Repo's -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
