@@ -32,7 +32,7 @@
 
   <!-- Tesla Devices -->  
   <project path="device/moto/shamu" name="device_moto_shamu" remote="t6" revision="6.0" />
-  <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" groups="device,shamu,broadcom_pdk" remote="t6" revision="6.0" />
+  <project path="kernel/moto/shamu" name="hellsgod/hells-Core-N6" remote="github" revision="marshmallow" />
 
   <!-- Tesla Vendors -->
   <project path="vendor/tesla" name="android_vendor_tesla" remote="t6" revision="6.0" />
