@@ -47,10 +47,10 @@
   <project path="vendor/moto" name="proprietary_vendor_moto" remote="t6" revision="6.0" />
 
   <!-- Toolchains -->
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="ExistanceVIP//arm-eabi-5.2" groups="pdk,linux,arm" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="ExistanceVIP//arm-eabi-6.0" groups="pdk,linux,arm" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="ExistanceVIP//arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bb" revision="sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="ExistanceVIP//arm-linux-androideabi-5.2" groups="pdk,linux,arm" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2" name="ExistanceVIP/arm-eabi-5.2" groups="pdk,linux,arm" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0" name="ExistanceVIP/arm-eabi-6.0" groups="pdk,linux,arm" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="ExistanceVIP/arm-linux-androideabi-4.9" groups="pdk,linux,arm" remote="bb" revision="sabermod" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2" name="ExistanceVIP/arm-linux-androideabi-5.2" groups="pdk,linux,arm" remote="bb" revision="sabermod" />
 
   <!-- AOSP Repo's -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
