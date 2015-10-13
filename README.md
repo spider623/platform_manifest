@@ -10,7 +10,8 @@ In terminal:
 1. sudo apt-get purge openjdk-\* icedtea-\* icedtea6-\*
 2. sudo apt-get update
 3. sudo apt-get install openjdk-7-jdk
-4. Check your version: java -version
+4. Check your version: 
+     java -version
 
 Should see something similar too:
 
