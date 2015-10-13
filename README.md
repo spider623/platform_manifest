@@ -28,8 +28,9 @@ sudo apt-get install git-core gnupg ccache lzop flex bison gperf build-essential
 
 If you come into any errors:
 ----------------------------
-sudo apt-get update
-sudo apt-get upgrade
+
+1. sudo apt-get update
+2. sudo apt-get upgrade
 Then try again
 
 Download repo tool and set your path
