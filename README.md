@@ -78,11 +78,11 @@ Setting up global:
 
 When that is done & repo is synced, type:
 -----------------------------------------
-
-1. . build/envsetup.sh
-2. lunch
-3. Choose your device
-4. make tesla -j#
+1. Set ccache : prebuilts/misc/linux-x86/ccache/ccache -M 50G
+2. . build/envsetup.sh
+3. lunch
+4. Choose your device
+5. make tesla -j#
 
 Have Fun!!
 ----------
