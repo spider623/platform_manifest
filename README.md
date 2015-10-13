@@ -7,6 +7,7 @@ Setting up your build environment for Ubuntu/Mint
 Prepare your Java environment
 -----------------------------
 In terminal:
+------------
 1. sudo apt-get purge openjdk-\* icedtea-\* icedtea6-\*
 2. sudo apt-get update
 3. sudo apt-get install openjdk-7-jdk
