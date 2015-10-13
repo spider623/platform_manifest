@@ -72,7 +72,9 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 (Just replace the credentials with your own)
 
-When that is done & repo is synced, type 
+When that is done & repo is synced, type:
+-----------------------------------------
+
 1. . build/envsetup.sh
 2. lunch
 3. Choose your device
