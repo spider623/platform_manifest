@@ -41,9 +41,10 @@ Download repo tool and set your path
  
 Include bashrc in repo tool
 ---------------------------
+
 1. sudo nano ~/.bashrc
 2. Once open: To set the right path for your local bin folder, paste the following code to a new line at the very bottom of the bashrc file, and then save the file using Ctrl+X:
-Add:
+3. Add:
 export PATH=~/bin:$PATH
 export USE_CCACHE=1
 After saving and closing:
