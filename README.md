@@ -70,8 +70,9 @@ Initialize Tesla-M build environment:
 Setting up global:
 ------------------
 
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
+1. git config --global user.email "you@example.com"
+2. git config --global user.name "Your Name"
+
 (Just replace the credentials with your own)
 
 When that is done & repo is synced, type:
