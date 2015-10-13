@@ -60,6 +60,7 @@ Install it by running "sudo dpkg -i --force all package name"
 
 Initialize Tesla-M build environment:
 -------------------------------------
+
 1. Open Terminal
 2. mkdir tesla && cd tesla
 3. repo init -u git://github.com/Tesla-M/platform_manifest.git -b 6.0
@@ -68,6 +69,7 @@ Initialize Tesla-M build environment:
 
 Setting up global:
 ------------------
+
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 (Just replace the credentials with your own)
