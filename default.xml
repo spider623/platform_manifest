@@ -38,10 +38,11 @@
   <project path="system/core" name="android_system_core" remote="t6" revision="6.0" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="t6" revision="6.0" />
 
-  <!-- Tesla Devices -->  
+  <!-- Tesla Devices -->
+  <project path="device/htc/flounder" name="device_htc_flounder" remote="t6" revision="6.0" />
+  <project path="kernel/htc/flounder" name="kernel_htc_flounder" remote="t6" revision="6.0" />
   <project path="device/moto/shamu" name="device_moto_shamu" remote="t6" revision="6.0" />
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="t6" revision="hells" />
-  <project path="device/htc/flounder" name="device_htc_flounder" remote="t6" revision="6.0" />
 
   <!-- Tesla Vendors -->
   <project path="vendor/tesla" name="android_vendor_tesla" remote="t6" revision="6.0" />
