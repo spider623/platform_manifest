@@ -5,8 +5,8 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
   
-  <remote name="bb"
-          fetch="https://bitbucket.org/" />
+  <remote  name="bb"
+           fetch="https://bitbucket.org/" />
           
   <remote  name="github"
            fetch="https://github.com/" /> 
@@ -41,6 +41,7 @@
   <!-- Tesla Devices -->  
   <project path="device/moto/shamu" name="device_moto_shamu" remote="t6" revision="6.0" />
   <project path="kernel/moto/shamu" name="android_kernel_moto_shamu" remote="t6" revision="hells" />
+  <project path="device/htc/flounder" name="device_htc_flounder" remote="t6" revision="6.0" />
 
   <!-- Tesla Vendors -->
   <project path="vendor/tesla" name="android_vendor_tesla" remote="t6" revision="6.0" />
@@ -86,8 +87,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
-  <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder,broadcom_pdk" />
-  <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder,broadcom_pdk" clone-depth="1" />
   <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead,broadcom_pdk,generic_fs" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead,broadcom_pdk,generic_fs" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
