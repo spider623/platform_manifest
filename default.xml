@@ -26,7 +26,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="platform_manifest" name="platform_manifest" remote="t6" revision="6.0" />
-  <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="art" groups="pdk" remote="t6" revision="6.0" />
   <project path="bionic" name="platform/bionic" remote="t6" revision="6.0" />
   <project path="external/busybox" name="android_external_busybox" remote="t6" revision="6.0" />
@@ -91,6 +90,7 @@
 <!-- END PREBUILTS -->
 
 <!-- BEGIN CM -->
+  <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" groups="pdk" remote="github" revision="cm-13.0" />
   <project path="cts" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" remote="github" revision="cm-13.0" />
   <project path="development" name="CyanogenMod/android_development" groups="pdk-cw-fs" remote="github" revision="cm-13.0" />
