@@ -63,13 +63,7 @@ Install lz4 compression tool:
 ```
 sudo apt-get install liblz4-tool
 ```
-Tesla-M is built with SaberMod, to install required binaries..
----------------------------------------------------------------
-Go to http://oceighty.co/sm/ and download the sabermod-prebuilts .deb file
-Install it by running 
-```
-sudo dpkg -i --force-all sabermod-prebuilts_*****-1.deb
-```
+
 Initialize Tesla-M build environment:
 -------------------------------------
 
