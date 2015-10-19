@@ -27,7 +27,7 @@
   </project>
   <project path="platform_manifest" name="platform_manifest" remote="t6" revision="6.0" />
   <project path="art" name="art" groups="pdk" remote="t6" revision="6.0" />
-  <project path="bionic" name="platform/bionic" remote="t6" revision="6.0" />
+  <project path="bionic" name="bionic" remote="t6" revision="6.0" />
   <project path="external/busybox" name="android_external_busybox" remote="t6" revision="6.0" />
   <project path="external/android-clat" name="external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="t6" revision="6.0" />
   <project path="external/libpng" name="external_libpng" groups="pdk" remote="t6" revision="6.0" /> 
