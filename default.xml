@@ -311,7 +311,7 @@
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" remote="github" revision="cm-13.0" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="github" revision="cm-13.0" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="github" revision="cm-13.0" />
-  <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" remote="github" revision="cm-13.0" />
+  <!-- <project path="packages/apps/Profiles" name="CyanogenMod/android_packages_apps_Profiles" remote="github" revision="cm-13.0" /> -->
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" remote="github" revision="cm-13.0" />
   <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" remote="github" revision="cm-13.0" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" remote="github" revision="cm-13.0" />
