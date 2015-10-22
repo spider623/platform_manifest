@@ -69,11 +69,15 @@ Initialize Tesla-M build environment:
 
 Open Terminal
 ```
-mkdir tesla && cd tesla
+mkdir TeslaM && cd TeslaM
 repo init -u git://github.com/Tesla-M/platform_manifest.git -b 6.0
-repo sync -j4 
+repo sync -j4 -c
 ```
-"-j is the number of jobs you want give to the download/sync, depending on your system, 4 should be fine on slower systems(i use -j16 on i7, 12Gb)"
+"-j is the number of jobs you want give to the download/sync, depending on your system, 4 should be fine on slower systems(i use -j16 on i7, 12Gb)
+
+-c will only sync the branch you need speeding things up
+
+in case of getting sync errors use --force-sync"
 
 Setting up global:
 ------------------
