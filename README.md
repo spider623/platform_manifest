@@ -86,7 +86,7 @@ git config --global user.name "Your Name"
 When that is done & repo is synced, type:
 -----------------------------------------
 ```
-Set ccache : prebuilts/misc/linux-x86/ccache/ccache -M 50G
+set ccache : prebuilts/misc/linux-x86/ccache/ccache -M 50G
 ```
 ```
 . build/envsetup.sh
